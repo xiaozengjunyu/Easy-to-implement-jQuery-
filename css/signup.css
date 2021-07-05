@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CDCDCD;
+}
+
+/* 添加背景颜色 */
+.header-form{
+    height: 50px;
+    background-color: #000000;
+    /* 设置 flex 布局 */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-form-font-size{
+    color: #DDD;
+    font-size: 24px;
+}
+
+.form-content{
+    margin: 0em 4em 0em 4em;
+}
+
+/* 设置表单内容 flex 布局 */
+.form-content div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-content span{
+
+    width: 20px;
+    height: 20px;
+    background-color: #E6E6FA;
+    text-align: center;
+    border-radius:30%;
+}
+
+#agency li,#completed li{
+    display: flex;
+    justify-content: space-between;
+}

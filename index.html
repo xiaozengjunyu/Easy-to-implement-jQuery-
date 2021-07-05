@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <script src="js/render-dom.js"></script>
+</head>
+<body>
+
+
+<header>
+    <nav class="nav-heavy">
+        <form action="" class="header-form" onkeypress="return event.keyCode != 13;">
+            <label for="event_input" class="header-form-font-size">ToDoList</label>
+            <input type="text" id="event_input" value="">
+        </form>
+    </nav>
+</header>
+
+<section class="form-content">
+<div>
+    <h2>正在进行</h2>
+    <span id="conduct">0</span>
+</div>
+<ul id="agency">
+    <!-- <li style="display: flex; justify-content: space-between;">
+        <input type="checkbox" >
+        <p id="niubi"></p>
+        <button onclick="dele_this()">-</button>
+    </li> -->
+</ul>
+
+<div>
+    <h2>已经完成</h2>
+    <span id="complete">0</span>
+</div>
+<ul id="completed">
+
+</ul>
+
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
